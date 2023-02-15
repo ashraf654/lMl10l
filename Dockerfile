@@ -7,8 +7,8 @@ RUN apt-get install git curl python3-pip ffmpeg -y
 RUN apt-get install git curl python3-pip mediainfo -y
 RUN apt-get install git curl python3-pip p7zip-full -y
 RUN pip3 install pillow \
-     google_trans_new \
-     googletrans==4.0.0rc1
+    google_trans_new \
+    googletrans==4.0.0rc1
 RUN apt-get update \
     && apt-get install -y unzip wget
 ARG USER=root
